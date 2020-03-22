@@ -1,17 +1,23 @@
 public class HelloWorld {
     public static void main(String[] args){
-        int myFavoriteNumber = 5;
-        String myString = "wazzup fam";
-        long myNumber = 123;
-        double decimal = 3.14;
+//        int myFavoriteNumber = 5;
+//        String myString = "wazzup fam";
+//        long myNumber = 123;
+//        double decimal = 3.14;
+//
+//        System.out.println("Hello World!");
+//        System.out.print("Hi ");
+//        System.out.print("world\n");
+//        System.out.println(myFavoriteNumber);
+//        System.out.println(myString);
+//        System.out.println(myNumber);
+//        System.out.println(decimal);
 
-        System.out.println("Hello World!");
-        System.out.print("Hi ");
-        System.out.print("world\n");
-        System.out.println(myFavoriteNumber);
-        System.out.println(myString);
-        System.out.println(myNumber);
-        System.out.println(decimal);
+
+        //below is casting from double to int; narrowing conversion (will result in 3 since int has no decimals)
+//        double pi = 3.14159;
+//        int almostPi = (int) pi;
+//        System.out.println(almostPi);
 
 //        int x = 5;
 //        System.out.println(x++);
