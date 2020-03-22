@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld {
     public static void main(String[] args){
 //        int myFavoriteNumber = 5;
@@ -59,6 +61,12 @@ public class HelloWorld {
 
         System.out.println(Integer.MAX_VALUE);
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Continue? [y/n]");
+        String userInput = sc.next();
+
+        boolean confirmation = userInput.equalsIgnoreCase("y");
+        System.out.println(confirmation);
 
 
     }
