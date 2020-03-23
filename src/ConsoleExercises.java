@@ -111,7 +111,7 @@ public class ConsoleExercises {
         double perimeter = (2 * length) + (2 * width);
 
         System.out.printf("Area of classroom is %.0f. Perimeter is %.0f", area, perimeter);
-
+//the .0 before each f indicates how many decimal places will output; here 0 decimal points will ouput after area and perimeter
 
 
     }

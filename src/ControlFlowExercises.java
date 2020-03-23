@@ -51,7 +51,7 @@ public class ControlFlowExercises {
 //        do {
 //            System.out.println(i);
 //            i = i * i;
-//            System.out.println(i);
+//
 //        } while(i < 1000000);
 
 
@@ -81,7 +81,7 @@ public class ControlFlowExercises {
         }
 
 
-        //Create a do-while loop that starts at 2, and displays the number squared on each line while the number is less than 1,000,000.
+        //Create a for loop that starts at 2, and displays the number squared on each line while the number is less than 1,000,000.
 
 //        for(long a = 2; a <= 1000000; a *= a){
 //            System.out.println(a);
@@ -110,7 +110,7 @@ public class ControlFlowExercises {
         /* ****************** TABLE OF POWERS ******************
          * Prompt the user to enter an integer.
          * Display a table of squares and cubes from 1 to the value entered.
-         * Ask if the user wants to continue.
+         * Ask if the user wants to continue. // should always be first or one of first variables before looping
          * Assume that the user will enter valid data.
          * Only continue if the user agrees to.
          * */
