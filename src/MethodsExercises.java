@@ -18,6 +18,8 @@ public class MethodsExercises {
         //
         //Food for thought: What happens if we try to divide by zero? What should happen?
 
+
+        //all below is stored in main method above
         int a=3;
         int b=4;
 //        System.out.println(a + b);
@@ -42,6 +44,9 @@ public class MethodsExercises {
         answerDividing = dividing(a, b);
         System.out.println(answerDividing);
     }
+
+    //all below are custom methods which call to variables in main method
+
         public static int addition(int x, int y){
             int answer = x + y;
 
