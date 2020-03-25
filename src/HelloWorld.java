@@ -68,11 +68,12 @@ public class HelloWorld {
 //        boolean confirmation = userInput.equalsIgnoreCase("y");
 //        System.out.println(confirmation);
 
-        double pi = 3.14159;
-        int almostPi = (int) pi;
-        System.out.println(almostPi);
+//        double pi = 3.14159;
+//        int almostPi = (int) pi;
+//        System.out.println(almostPi);
         //produces 3 because it's now int value, which has no decimal values
 
 
+        System.out.println("test" + 1);
     }
 }
