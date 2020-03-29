@@ -40,7 +40,7 @@ public class YoutubePractice12FloatingPointData {
         Increment the exponent from 1 to 20
          */
         double x = 1.25;
-        int y;
+        int y; //only reason while int will work below is because of Math.pow method which will auto convert int to double
 
         for (y = 1; y <= 20; y++){
             double powerOf = Math.pow(x, y); //you can explicitly cast here to a float (in front of Math.pow) if you want less decimal points
