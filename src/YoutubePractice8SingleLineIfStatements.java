@@ -29,7 +29,7 @@ public class YoutubePractice8SingleLineIfStatements {
         if(x == y) System.out.println("x is equal to da y"); //won't run
 
         //also can be :
-        // if (x < y) System.out.println("wazzuuuup");
+        // if (x < y) System.out.println("wazzuuuup"); THIS DOESN'T WORK FOR BLOCK CODE - more than one line of code to be executed
 
         double a,b,c;
 
