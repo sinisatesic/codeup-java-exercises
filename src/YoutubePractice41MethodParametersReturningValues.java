@@ -23,19 +23,39 @@ public class YoutubePractice41MethodParametersReturningValues {
 
 
         //exercise 1:
-        Scanner userIntOne = new Scanner(System.in);
-        int firstUserAnswer;
-        System.out.println("Separately input two integers from 1 to 100");
-        firstUserAnswer = userIntOne.nextInt();
-        Scanner userIntTwo = new Scanner(System.in);
-        int secondUserAnswer;
-        System.out.println("Now input second integer:");
-        secondUserAnswer = userIntTwo.nextInt();
+//        Scanner userIntOne = new Scanner(System.in);
+//        int firstUserAnswer;
+//        System.out.println("Separately input two integers from 1 to 100");
+//        firstUserAnswer = userIntOne.nextInt();
+//        Scanner userIntTwo = new Scanner(System.in); //don't even need new scanner, can re-use initial one
+//        int secondUserAnswer;
+//        System.out.println("Now input second integer:");
+//        secondUserAnswer = userIntTwo.nextInt();
+//
+//        int exerciseAnswer;
+//
+//        exerciseAnswer = whichIsLarger(firstUserAnswer, secondUserAnswer);
+//        System.out.println("You entered: " + firstUserAnswer + " and " + secondUserAnswer);
+//        System.out.println("Larger (or equal) number is " + exerciseAnswer);
 
-        int exerciseAnswer;
+        //exercise 2:
+        Scanner grades = new Scanner(System.in);
+        double firstGradeInput;
+        System.out.println("Separately input three grades from 1 to 100");
+        firstGradeInput = grades.nextDouble();
+        double secondGradeInput;
+        System.out.println("Input second grade: ");
+        secondGradeInput = grades.nextDouble();
+        double thirdGradeInput;
+        System.out.println("Input third grade: ");
+        thirdGradeInput = grades.nextDouble();
 
-        exerciseAnswer = whichIsLarger(firstUserAnswer, secondUserAnswer);
-        System.out.println("Larger num is " + exerciseAnswer);
+        double gradesAnswer;
+
+        gradesAnswer = averageOfGrades(firstGradeInput, secondGradeInput, thirdGradeInput);
+        System.out.println("\nThe 3 grades you inserted are : " + firstGradeInput + ", " + secondGradeInput + " and " + thirdGradeInput);
+        System.out.println("\nThe average of these grades is " + gradesAnswer);
+
 
     }
 
@@ -64,8 +84,21 @@ public class YoutubePractice41MethodParametersReturningValues {
     then return the larger of the two numbers and display the answer to the user.
      */
 
-    public static int whichIsLarger(int a, int b){
-        if(a >= b) return a;
-        else return b;
+//    public static int whichIsLarger(int a, int b){
+//        if(a >= b) return a;
+//        else return b;
+//    }
+
+    /*
+    2.
+    In the main method, ask the user to separately input three grades from 0 to 100.
+    Since these are grades they should be stored as double values. Create a method
+    that will take as parameters these 3 grades and average them (add them up and
+    divide by 3). The method then returns the answer to the main method and the answer
+    is displayed to the user.
+     */
+
+    public static double averageOfGrades(double a, double b, double c){
+        return (a + b + c) / 3;
     }
 }
