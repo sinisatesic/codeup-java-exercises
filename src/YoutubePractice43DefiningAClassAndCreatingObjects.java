@@ -74,24 +74,37 @@ public class YoutubePractice43DefiningAClassAndCreatingObjects {
 //        System.out.println("Orlando store's gross income revenue is: " + orlandoGrossRevenue);
 
         //lesson 46 exercise content:
-        System.out.println("\n\tHouston Store Revenue:");
-        houstonStore.grossRevenue();
+//        System.out.println("\n\tHouston Store Revenue:");
+//        houstonStore.grossRevenue();
+//
+//        System.out.println("\n\tSeattle Store Revenue:");
+//        seattleStore.grossRevenue();
+//
+//        System.out.println("\n\tOrlando Store Revenue");
+//        orlandoStore.grossRevenue();
 
-        System.out.println("\n\tSeattle Store Revenue:");
-        seattleStore.grossRevenue();
+        //Lesson 47 exercise content:
+        System.out.println("Houston store revenue is " + houstonStore.grossRevenue());
 
-        System.out.println("\n\tOrlando Store Revenue");
-        orlandoStore.grossRevenue();
+
+        double houstonRevenue = houstonStore.grossRevenue(); //more concise way of doing it
+        System.out.println("Houston store revenue is " + houstonRevenue);
+
+
+        System.out.println("Seattle store revenue is " + seattleStore.grossRevenue());
+
+        double seattleRevenue = seattleStore.grossRevenue();
+        System.out.println("Seattle store revenue be: " + seattleRevenue);
+
+
+        System.out.println("Orlando store revenue is " + orlandoStore.grossRevenue());
+
+        double orlandoRevenue = orlandoStore.grossRevenue();
+        System.out.println("Da Orlandoz revenue iz: " + orlandoRevenue);
+
     }
 }
 
-//class aircraft {
-//    int passengers;             // number of people
-//    int cruiseSpeed;            // miles per hour
-//    double fuelCapacity;        // gallons quantity
-//    double fuelBurnRate;        // gallons per hour
-//    //when you associate these with object(s), then memory is allocated/assigned
-//}
 
 /*
 1.
@@ -120,10 +133,10 @@ class groceryStore {
 
 
     //method aplicable to all stores below:
-    void grossRevenue(){
+    double grossRevenue(){
 
     double storeGrossRevenue = (applesSold * appleRetail) + (orangesSold * orangesRetail);
-        System.out.println("Store revenue is: " + storeGrossRevenue);
+        return storeGrossRevenue;
     }
 }
 
@@ -165,3 +178,15 @@ Back in the main method, call the grossRevenue method for each of the three stor
 (Houston, Seattle, Orlando).
 In the end, we'd like to see the gross revenue of each store printed on the screen.
  */
+
+/*
+Lesson 47 exercise - relative to code in this class
+Modify the code from the previous exercise so that the grossRevenue method
+in the groceryStore class calculates the gross revenue and returns the answer to the caller. In other words
+don't have the method print out the answer. It should
+calculate the answer and return it to the calling place in the main method.
+
+Using this arrangement, calculate the gross revenue of the Houston, Seattle, and Orlando
+stores and print the results to the screen using print statements in the main method.
+ */
+

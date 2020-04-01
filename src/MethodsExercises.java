@@ -105,8 +105,7 @@ public class MethodsExercises {
          //Hint: recursion might be helpful here!
 
     public static int validInput(int min, int max){
-        Scanner scan = new Scanner(System.in)
-                .useDelimiter("\n");
+        Scanner scan = new Scanner(System.in);
         int input = scan.nextInt();
         if(input >= min && input <= max) return input;
         System.out.println("Try again!");
@@ -142,6 +141,9 @@ public class MethodsExercises {
         else System.out.println("GoodBye.");
     }
 
+
+
+
     public static long getFactorials(int num){
         if(num == 1) return 1L;
         return (long)num * getFactorials(num -1);
@@ -174,7 +176,7 @@ public class MethodsExercises {
     //Use the .random method of the java.lang.Math class to generate random numbers.
 
     public static void rollTheDice(){
-        Scanner scan = new Scanner(System.in).useDelimiter("\n");
+        Scanner scan = new Scanner(System.in);
         System.out.println("How many sides does your dice have?");
         int sides = scan.nextInt();
 //        clear
