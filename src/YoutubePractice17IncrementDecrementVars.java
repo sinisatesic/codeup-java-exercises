@@ -30,3 +30,16 @@ public class YoutubePractice17IncrementDecrementVars {
         }
     }
 }
+
+//for(int i=0;i<t;i++){
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//        int n = in.nextInt();
+//        int k=a;
+//        for(int j=0;j<n;j++)
+//        {
+//            k+=b*(int)Math.pow(2,j);
+//            System.out.print(k+" ");
+//        }
+//        System.out.println();
+//    }
