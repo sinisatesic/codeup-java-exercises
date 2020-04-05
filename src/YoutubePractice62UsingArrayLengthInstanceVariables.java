@@ -47,5 +47,7 @@ public class YoutubePractice62UsingArrayLengthInstanceVariables {
             System.out.println(arrayz[i]);
         }
 
+        //NOTE: you can also use i < arrayz.length instead of i <= array.length-1 in the above loop
+
     }
 }
