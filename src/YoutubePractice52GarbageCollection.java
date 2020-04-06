@@ -115,43 +115,43 @@ public class YoutubePractice52GarbageCollection {
     //
     //
     //
-    //    //Beginning of methods for Option 3 - searching for contact//
-    //    public static void searchContacts() throws  IOException{
-    //        Path searchPath = Paths.get("data","contacts.txt");
-    //        List<String> contacts = Files.lines(searchPath).collect(Collectors.toList());
-    //
-    //        String searchContacts = getSearchInput();
-    //
-    //        displaySearchContactResult(searchContacts, contacts);
-    //    }
-    //
-    //
-    //    public static String getSearchInput() throws IOException{
-    //        Scanner searchContacts = new Scanner(System.in);
-    //        System.out.println("Who are you searching for?");
-    //        String contactName = searchContacts.nextLine();
-    //        searchContacts.close();
-    //
-    //        return contactName;
-    //    }
-    //
-    //    public static void displaySearchContactResult(String searchString, List<String> contacts) throws  IOException {
-    //        boolean inData = false;
-    //        String userDisplay = "";
-    //        for(String contact : contacts){
-    //            if (contact.contains(searchString)) {
-    //                inData = true;
-    //                userDisplay = contact;
-    //                break;
-    //            }
-    //        }
-    //
-    //        if (inData) {
-    //            System.out.println("\n\tYarp, we have 'em! Below is contact info:\n" + userDisplay);
-    //        } else {
-    //            System.out.println("Narp, no such contact here braj");
-    //        }
-    //    }
-    //    //end here for Option 3 methods - searching for contact
+//        //Beginning of methods for Option 3 - searching for contact//
+//        public static void searchContacts() throws  IOException{
+//            Path searchPath = Paths.get("data","contacts.txt");
+//            List<String> contacts = Files.lines(searchPath).collect(Collectors.toList());
+//
+//            String searchContacts = getSearchInput();
+//
+//            displaySearchContactResult(searchContacts, contacts);
+//        }
+//
+//
+//        public static String getSearchInput() throws IOException{
+//            Scanner searchContacts = new Scanner(System.in);
+//            System.out.println("Who are you searching for?");
+//            String contactName = searchContacts.nextLine();
+//            searchContacts.close();
+//
+//            return contactName;
+//        }
+//
+//        public static void displaySearchContactResult(String searchString, List<String> contacts) throws  IOException {
+//            boolean inData = false;
+//            String userDisplay = "";
+//            for(String contact : contacts){
+//                if (contact.contains(searchString)) {
+//                    inData = true;
+//                    userDisplay = contact;
+//                    break;
+//                }
+//            }
+//
+//            if (inData) {
+//                System.out.println("\n\tYarp, we have 'em! Below is contact info:\n" + userDisplay);
+//            } else {
+//                System.out.println("Narp, no such contact here braj");
+//            }
+//        }
+//        //end here for Option 3 methods - searching for contact
     //}
 }
