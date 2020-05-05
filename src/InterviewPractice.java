@@ -2,7 +2,7 @@ public class InterviewPractice {
 
     public static void main(String[] args) {
         //first palindrome:
-checkPal("aha");
+        checkPal("aha");
 
 //second palindrome:
         String str = "abccba";
@@ -11,10 +11,17 @@ checkPal("aha");
             System.out.println("yes");
         else
             System.out.println("No");
+
+        //reveres string; first char uppercase
+        System.out.println(reverse("abc"));
     }
 
+
+    ///////////////////////
+
+
     //checking for palindrome
-    public static void checkPal (String s){
+    public static void checkPal(String s) {
 
         //reverse the given String
         String reverse = new StringBuffer(s).reverse().toString();
@@ -28,7 +35,7 @@ checkPal("aha");
     }
 
 
-    public static boolean isPalindrome(String str){
+    public static boolean isPalindrome(String str) {
 
         //pointers pointing to the beginning and end of string
         int i = 0, j = str.length() - 1;
@@ -46,5 +53,17 @@ checkPal("aha");
 
         //give string is a palindrome
         return true;
+    }
+
+
+    //reverse a string and capitalize first letter
+    public static String reverse(String str) {
+        String result = "";
+        String[] items = str.split(" ");
+
+        for (int i = 0; i < items.length; i++) {
+            result += new StringBuffer(items[i]).reverse().toString();
+        }
+        return result.substring(0, 1).toUpperCase() + result.substring(1);
     }
 }
