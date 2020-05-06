@@ -40,7 +40,7 @@ public class InterviewPractice {
         //pointers pointing to the beginning and end of string
         int i = 0, j = str.length() - 1;
 
-        //while there are characters toc compare
+        //while there are characters to compare
         while (i < j) {
             //if there is a mismatch
             if (str.charAt(i) != str.charAt(j))
@@ -51,7 +51,7 @@ public class InterviewPractice {
             j--;
         }
 
-        //give string is a palindrome
+        //if given string is a palindrome
         return true;
     }
 
