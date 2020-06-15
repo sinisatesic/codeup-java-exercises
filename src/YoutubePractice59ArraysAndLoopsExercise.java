@@ -24,5 +24,14 @@ public class YoutubePractice59ArraysAndLoopsExercise {
             numbers[i] = i * i;
             System.out.println("The square of " + i + " is " + numbers[i]);
         }
+
+
+        int[] numArray = {1, 2, 3, 4, 5};
+        int sum = 0;
+
+        for(int i = 0; i < numArray.length; i++) {
+            sum += numArray[i];
+            System.out.println(sum);
+        }
     }
 }
