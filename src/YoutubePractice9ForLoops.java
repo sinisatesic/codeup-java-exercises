@@ -12,7 +12,7 @@ public class YoutubePractice9ForLoops {
         int secondCounter;
 
         for (secondCounter = 5; secondCounter <= 20; secondCounter+=5)
-            System.out.println("\n\tThe secound counter is at " + secondCounter);
+            System.out.println("\n\tThe second counter is at " + secondCounter);
 
 
         for(secondCounter = 100; secondCounter >= 50; secondCounter-=10)
